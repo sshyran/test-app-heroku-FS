@@ -4,7 +4,7 @@
   "description": "Full stack test app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/rileypredum/test-app-heroku-FS#readme",
   "dependencies": {
     "app": "^0.1.0",
+    "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "create": "0.0.2",
     "create-react-app": "^3.0.1",
